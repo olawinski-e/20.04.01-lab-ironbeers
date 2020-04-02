@@ -1,0 +1,30 @@
+/*
+white: #f7f9f9;
+light-blue: #2081c3;
+dark-blue: #0a2c42;
+grey: #bfbfbf;
+font-family: Arial, Helvetica, sans-serif;
+*/
+
+img {
+  margin: auto;
+  width: 30%;
+  margin-top: 10%;
+}
+
+.middle {
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  margin: 30px auto;
+}
+
+a {
+  color: #ffffff;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
