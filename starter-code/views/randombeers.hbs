@@ -1,16 +1,4 @@
 <!-- randombeers.hbs -->
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Random Beers</title>
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-</head>
-
-<body>
-    <h1>Random Beer</h1>
-</body>
-
-</html>
+<h1>Random Beer</h1>
+{{#each beers}}
+{{> beerPartial}} {{/each}}

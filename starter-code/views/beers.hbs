@@ -1,17 +1,4 @@
 <!-- beers.hbs -->
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Beers</title>
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-</head>
-
-<body>
-    <h1>Beers</h1>
-    {{beers}}
-</body>
-
-</html>
+<h1>Beers</h1>
+{{#each beers}}
+{{> beerPartial}} {{/each}}
